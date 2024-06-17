@@ -1,0 +1,26 @@
+[1mdiff --git a/src/app/_styles/Parallax.module.css b/src/app/_styles/Parallax.module.css[m
+[1mindex 62468c2..ac0bb1b 100644[m
+[1m--- a/src/app/_styles/Parallax.module.css[m
+[1m+++ b/src/app/_styles/Parallax.module.css[m
+[36m@@ -12,7 +12,7 @@[m
+     z-index: 1;[m
+     padding: 20px;[m
+     background-color: rgba(255, 255, 255, 0.8);[m
+[31m-    margin: 20px;[m
+[32m+[m[32m    margin: 22px;[m[41m[m
+     display: flex-row;[m
+     align-items: center;[m
+     justify-content: center;[m
+[1mdiff --git a/src/app/career/page.tsx b/src/app/career/page.tsx[m
+[1mindex f47efbc..7fbd465 100644[m
+[1m--- a/src/app/career/page.tsx[m
+[1m+++ b/src/app/career/page.tsx[m
+[36m@@ -8,7 +8,7 @@[m [mconst CareerPage: React.FC = () => {[m
+         <div className={styles.content}>[m
+           <h1>Career at Hectronic</h1>[m
+           <p>[m
+[31m-            Join Hectronic and be part of a team that innovates and leads in the tech industry. We are committed to providing an inclusive and dynamic work environment.[m
+[32m+[m[32m             Hectronic and be part of a team that innovates and leads in the tech industry. We are committed to providing an inclusive and dynamic work environment.[m[41m[m
+           </p>[m
+         </div>[m
+       </div>[m

@@ -8,7 +8,7 @@ const CareerPage: React.FC = () => {
         <div className={styles.content}>
           <h1>Career at Hectronic</h1>
           <p>
-            Join Hectronic and be part of a team that innovates and leads in the tech industry. We are committed to providing an inclusive and dynamic work environment.
+             Hectronic and be part of a team that innovates and leads in the tech industry. We are committed to providing an inclusive and dynamic work environment.
           </p>
         </div>
       </div>
