@@ -1,0 +1,26 @@
+.imageTextContainer {
+    display: flex;
+    align-items: flex-center;
+    padding: 20px;
+  }
+  
+  .imageWrapper {
+    flex-shrink: 0;
+    margin-right: 20px;
+  }
+  
+  .textContent {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .textContent h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .textContent p {
+    margin: 5px 0 0 0;
+    font-size: 16px;
+  }
+  
