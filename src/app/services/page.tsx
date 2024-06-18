@@ -1,8 +1,7 @@
 // pages/service.tsx
-import React from 'react';
 import ImageWithText from '../../components/imagewithtext';
 
-const ServicePage: React.FC = () => {
+export default function ServicePage() {
   return (
     <div>
       <h1>Services</h1>
@@ -23,4 +22,3 @@ const ServicePage: React.FC = () => {
   );
 };
 
-export default ServicePage;

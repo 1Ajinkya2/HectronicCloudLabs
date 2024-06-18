@@ -17,7 +17,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ id, name, info, image, price 
   };
 
   return (
-    <div className="card border rounded-lg p-4 shadow-lg">
+    <div className="card border w-4 rounded-lg p-4 shadow-lg">
       <img src={image} className="image w-full h-48 object-cover rounded" alt={name} />
       <div className="product-info mt-4">
         <div className="product-details flex justify-between items-center">
