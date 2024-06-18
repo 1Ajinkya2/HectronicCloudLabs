@@ -1,7 +1,6 @@
-import React from 'react';
 import styles from '../_styles/Parallax.module.css'
 
-const CareerPage: React.FC = () => {
+export default function CareerPage(){
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className={styles.parallax}>
@@ -30,4 +29,4 @@ const CareerPage: React.FC = () => {
   );
 }
 
-export default CareerPage;
+
